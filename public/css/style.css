@@ -1,0 +1,45 @@
+body {
+  font-family: PT Sans;
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+}
+
+.shuttle-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #a9a5e0;
+  border: 1px solid rgb(79, 146, 70);
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.lutos-lodi {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  font-size: 30px;
+}
+
+h4 {
+  text-align: center;
+}
+.hover:hover {
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: paleturquoise;
+  transition-delay: 100ms;
+  transition-property: 2;
+  border-radius: 5px;
+}
